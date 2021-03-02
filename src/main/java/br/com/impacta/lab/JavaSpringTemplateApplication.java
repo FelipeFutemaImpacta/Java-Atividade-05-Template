@@ -4,7 +4,7 @@ public class JavaSpringTemplateApplication {
 
 	public static void main(String[] args) {
 		/*
-		 * Transforme a tabela produto em uma classe separada
+		 * Transforme a tabela produto em uma classe separadas
 		 * no pacote br.com.impacta.models
 		 * 
 		 *  
