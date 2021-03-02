@@ -4,7 +4,7 @@ public class JavaSpringTemplateApplication {
 
 	public static void main(String[] args) {
 		/*
-		 * Transforme as duas tabelas (produto e tipo de pagamento) em duas classes separadas
+		 * Transforme a tabela produto em uma classe separada
 		 * no pacote br.com.impacta.models
 		 * 
 		 *  
@@ -19,19 +19,9 @@ public class JavaSpringTemplateApplication {
 		 * 
 		 * -----------------------------------------------------------------
 		 * 
-		 * Tabela de condição de pagamento
-		 * 
-		 * 	CodTipoPagamento		descrição da condição de pagamento
-		 * 	1						A vista no dinheiro com 10% de desconto
-		 * 	2						A vista no cartão de crédito  com 5% de desconto
-		 * 	3						Em duas parcelas sem nenhum desconto
-		 * 	4						Em três vezes com 10% de juros
-		 * 
-		 * 
-		 * 
-		 * Em seguida crie um método estatico na classe Produto onde o mesmo tenho o nome de montarResumo
-		 * Exemplo de um método estatico:
-		 * public static String falar(String palavra) {
+		 * Em seguida crie um método na classe Produto onde o mesmo tenho o nome de montarResumo
+		 * Exemplo de um método:
+		 * public String falar(String palavra) {
 		 * 	System.out.println(palavra);
 		 * }
 		 * 
@@ -49,7 +39,7 @@ public class JavaSpringTemplateApplication {
 		produto.descricao = "Camisa";
 		produto.valor = 70.00;
 		
-		String resumo = Produto.montarResumo(produto);
+		String resumo = produto.montarResumo(produto);
 		
 		System.out.println(resumo);
 	}
