@@ -3,6 +3,7 @@ package br.com.impacta.lab;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+import br.com.impacta.models.*;
 
 class JavaSpringTemplateApplicationTests {
 

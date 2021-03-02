@@ -1,5 +1,7 @@
 package br.com.impacta.lab;
 
+import br.com.impacta.models.*;
+
 public class JavaSpringTemplateApplication {
 
 	public static void main(String[] args) {
