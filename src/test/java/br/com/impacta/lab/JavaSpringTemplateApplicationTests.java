@@ -5,10 +5,10 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Test;
 import br.com.impacta.models.*;
 
-class JavaSpringTemplateApplicationTests {
+public class JavaSpringTemplateApplicationTests {
 
 	@Test
-	public void shouldHaveMontarResumoAsStaticMethod() {
+	public void shouldMontarResumoWithNewProdutoCodigo1() {
 		
 		Produto produto = new Produto();
 		produto.codigo = 1;
